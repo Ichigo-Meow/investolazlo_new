@@ -1,0 +1,19 @@
+:root {
+    /* Font Family Variables for easy usage */
+    --font-helvetica: 'Helvetica', Arial, sans-serif;
+    --font-helvetica-light: 'Helvetica Light', Arial, sans-serif;
+    --font-helvetica-compressed: 'Helvetica Compressed', Arial, sans-serif;
+    --font-helvetica-rounded-bold: 'Helvetica Rounded Bold', Arial, sans-serif;
+    --font-inter: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-whyte-inktrap: 'WhyteInktrap', Georgia, serif;
+
+    /* Colors */
+    --color-white: #fff;
+    --color-primary: #2C4AA2;
+    --color-background: #f2f2fa;
+    --color-background-secondary: #2b2a2e;
+    --color-text: #6F6E6E;
+    --color-titles: #3c3d3f;
+
+}
+
