@@ -1,0 +1,36 @@
+.page {
+    background: url(../../img/page/bg.png) no-repeat center center / cover;
+    padding-bottom: 40px;
+}
+.page__meta {
+    font-size: 20px;
+    line-height: 170%;
+    color: var(--color-text);
+    cursor: pointer;
+
+}
+.page__meta:hover {
+    text-decoration: underline;
+}
+.page__content {
+    padding: 40px;
+    background-color: var(--color-background);
+    border-radius: 20px;
+    margin-top: 40px;
+}
+.page__title {
+    font-size: 50px;
+    color: var(--color-title);
+    font-family: var(--font-inter);
+}
+.page__text {
+    font-size: 20px;
+    line-height: 170%;
+    color: var(--color-text);
+    margin-top: 48px;
+}
+.page__text br {
+    display: block;
+    content: "";
+    margin-bottom: 30px;
+}
