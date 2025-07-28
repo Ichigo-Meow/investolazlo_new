@@ -62,3 +62,137 @@
     color: var(--color-primary);
     border: 1px solid var(--color-primary);
 }
+.cookie__image-mobile {
+    display: none;
+}
+@media (max-width: 1024px) {
+    .cookie {
+        margin: 50px 0;
+    }
+    
+    .cookie__container {
+        padding: 35px 40px;
+        gap: 80px;
+    }
+    
+    .cookie__image {
+        max-width: 300px;
+        max-height: 200px;
+    }
+    
+    .cookie__title {
+        font-size: 48px;
+    }
+    
+    .cookie__text {
+        font-size: 18px;
+        margin: 20px 0;
+    }
+    
+    .cookie__buttons {
+        gap: 15px;
+    }
+    
+    .cookie__button {
+        padding: 18px 60px;
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 810px) {
+    .cookie {
+        margin: 40px 0;
+    }
+    
+    .cookie__container {
+        flex-direction: column;
+        padding: 30px 25px;
+        gap: 30px;
+        text-align: center;
+    }
+    .cookie__image {
+        display: none;
+    }
+    .cookie__title-wrapper {
+        position: relative;
+    }
+    .cookie__image-mobile {
+        display: block;
+        position: absolute;
+        max-width: 100px;
+        max-height: 70px;
+        top: 50%;
+        left: 0;
+        transform: translate(0, -50%);
+        z-index: 1;
+    }
+    
+    .cookie__content {
+        width: 100%;
+    }
+    
+    .cookie__title {
+        font-size: 36px;
+    }
+    
+    .cookie__text {
+        font-size: 16px;
+        margin: 20px 0;
+    }
+    
+    .cookie__buttons {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .cookie__button {
+        padding: 15px 40px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .cookie {
+        margin: 30px 0;
+    }
+    
+    .cookie__container {
+        padding: 25px 20px;
+        gap: 25px;
+    }
+    
+    .cookie__image {
+        display: none;
+    }
+    .cookie__title-wrapper {
+        position: relative;
+    }
+    .cookie__image-mobile {
+        display: block;
+        position: absolute;
+        max-width: 80px;
+        max-height: 50px;
+        top: 40%;
+        left: 0;
+        transform: translate(0, -50%);
+        z-index: 1;
+    }
+    
+    .cookie__title {
+        font-size: 24px;
+    }
+    
+    .cookie__text {
+        font-size: 14px;
+        margin: 25px 0;
+    }
+    
+    .cookie__buttons {
+        gap: 12px;
+    }
+    
+    .cookie__button {
+        padding: 12px 30px;
+        font-size: 16px;
+    }
+}

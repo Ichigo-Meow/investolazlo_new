@@ -22,53 +22,100 @@
     <link rel="stylesheet" href="./assets/css/components/cookie.css">
 </head>
 <body>
-    <header class="header">
-        <div class="header__container">
-            <div class="header__logo">
-                <h1 class="header__title">Investolazlo</h1>
-            </div>
-            <nav class="header__nav">
-                <ul class="header__nav-list">
-                    <li class="header__nav-item">
-                        <a href="#" class="header__nav-link">Home</a>
-                    </li>
-                    <li class="header__nav-item">
-                        <a href="#" class="header__nav-link">About</a>
-                    </li>
-                    <li class="header__nav-item">
-                        <a href="#" class="header__nav-link">Comments</a>
-                    </li>
-                    <li class="header__nav-item">
-                        <a href="#" class="header__nav-link">Gallery</a>
-                    </li>
-                    <li class="header__nav-item">
-                        <a href="#" class="header__nav-link">Articless</a>
-                    </li>
-                </ul>
-            </nav>
-            <div class="header__social">
-                <ul class="header__social-list">
-                    <li class="header__social-item">
-                        <a href="#" class="header__social-link">
-                            <img src="./assets/img/header/x.svg" alt="x">
-                        </a>
-                    </li>
-                    <li class="header__social-item">
-                        <a href="#" class="header__social-link">
-                            <img src="./assets/img/header/facebook.svg" alt="facebook">
-                        </a>
-                    </li>
-                    <li class="header__social-item">
-                        <a href="#" class="header__social-link">
-                            <img src="./assets/img/header/insta.svg" alt="instagram">
-                        </a>
-                    </li>
-                </ul>
-            </div>
+<header class="header">
+    <div class="header__container">
+        <div class="header__logo">
+            <h1 class="header__title">Investolazlo</h1>
         </div>
-    </header>
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item">
+                    <a href="#" class="header__nav-link">Home</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="#" class="header__nav-link">About</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="#" class="header__nav-link">Comments</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="#" class="header__nav-link">Gallery</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="#" class="header__nav-link">Articless</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header__social">
+            <ul class="header__social-list">
+                <li class="header__social-item">
+                    <a href="#" class="header__social-link">
+                        <img src="./assets/img/header/x.svg" alt="x">
+                    </a>
+                </li>
+                <li class="header__social-item">
+                    <a href="#" class="header__social-link">
+                        <img src="./assets/img/header/facebook.svg" alt="facebook">
+                    </a>
+                </li>
+                <li class="header__social-item">
+                    <a href="#" class="header__social-link">
+                        <img src="./assets/img/header/insta.svg" alt="instagram">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <button class="header__burger" aria-label="Открыть меню">
+            <span class="header__burger-line"></span>
+            <span class="header__burger-line"></span>
+            <span class="header__burger-line"></span>
+        </button>
+    </div>
 
-    <section class="hero">
+    <!-- Мобильное меню -->
+    <div class="header__mobile-menu">
+        <nav class="header__mobile-nav">
+            <ul class="header__mobile-nav-list">
+                <li class="header__mobile-nav-item">
+                    <a href="#" class="header__mobile-nav-link">Home</a>
+                </li>
+                <li class="header__mobile-nav-item">
+                    <a href="#" class="header__mobile-nav-link">About</a>
+                </li>
+                <li class="header__mobile-nav-item">
+                    <a href="#" class="header__mobile-nav-link">Comments</a>
+                </li>
+                <li class="header__mobile-nav-item">
+                    <a href="#" class="header__mobile-nav-link">Gallery</a>
+                </li>
+                <li class="header__mobile-nav-item">
+                    <a href="#" class="header__mobile-nav-link">Articless</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header__mobile-social">
+            <ul class="header__mobile-social-list">
+                <li class="header__mobile-social-item">
+                    <a href="#" class="header__mobile-social-link">
+                        <img src="./assets/img/header/x.svg" alt="x">
+                    </a>
+                </li>
+                <li class="header__mobile-social-item">
+                    <a href="#" class="header__mobile-social-link">
+                        <img src="./assets/img/header/facebook.svg" alt="facebook">
+                    </a>
+                </li>
+                <li class="header__mobile-social-item">
+                    <a href="#" class="header__mobile-social-link">
+                        <img src="./assets/img/header/insta.svg" alt="instagram">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+     <section class="hero">
         <div class="hero__container">
             <div class="hero__content">
                 <h2 class="hero__title">
@@ -113,7 +160,7 @@
                     </div>
                 </div>
                 <div class="hero__card card">
-                    <h3 class="card__title">Popular Category</h3>
+                    <h3 class="card__title">Our Gallery</h3>
                     <div class="card__link-wrapper">
                         <a href="#" class="card__link">
                             <span class="card__link-text">
@@ -123,6 +170,14 @@
                         </a>
                     </div>
                 </div>
+            </div>
+            <div class="hero__buttons-mobile">
+                <a href="#" class="hero__button">
+                    <span class="hero__button-text">About me</span>
+                </a>
+                <a href="#" class="hero__button hero__button-secondary">
+                    <span class="hero__button-text">Contact me</span>
+                </a>
             </div>
         </div>
     </section>
@@ -137,7 +192,7 @@
                             <h3 class="aboutme__card-title">Blockchain</h3>
                         </div>
                         <div class="aboutme__card aboutme__card-secondary">
-                            <h3 class="aboutme__card-title">Cyber <br> Security</h3>
+                            <h3 class="aboutme__card-title">Cyber Security</h3>
                         </div>
                     </div>
                     <div class="aboutme__text">
@@ -565,7 +620,7 @@
                                 </a>
                             </label>
                         </div>
-                        <button type="submit" class="contact__form-btn">Send request</button>
+                        <button type="submit" class="contact__form-btn">Confirm order</button>
                     </form>
                 
                 </div>
@@ -728,6 +783,7 @@
                                 </a>
                             </label>
                         </div>
+                        <button type="submit" class="problem__btn problem__btn-mobile">Send request</button>
                     </form>
                 </div>
             </div>
@@ -808,51 +864,6 @@
         </div>
     </footer>
 
-    <header class="header">
-        <div class="header__container">
-            <div class="header__logo">
-                <h1 class="header__title">Investolazlo</h1>
-            </div>
-            <nav class="header__nav">
-                <ul class="header__nav-list">
-                    <li class="header__nav-item">
-                        <a href="#" class="header__nav-link">Home</a>
-                    </li>
-                    <li class="header__nav-item">
-                        <a href="#" class="header__nav-link">About</a>
-                    </li>
-                    <li class="header__nav-item">
-                        <a href="#" class="header__nav-link">Comments</a>
-                    </li>
-                    <li class="header__nav-item">
-                        <a href="#" class="header__nav-link">Gallery</a>
-                    </li>
-                    <li class="header__nav-item">
-                        <a href="#" class="header__nav-link">Articless</a>
-                    </li>
-                </ul>
-            </nav>
-            <div class="header__social">
-                <ul class="header__social-list">
-                    <li class="header__social-item">
-                        <a href="#" class="header__social-link">
-                            <img src="./assets/img/header/x.svg" alt="x">
-                        </a>
-                    </li>
-                    <li class="header__social-item">
-                        <a href="#" class="header__social-link">
-                            <img src="./assets/img/header/facebook.svg" alt="facebook">
-                        </a>
-                    </li>
-                    <li class="header__social-item">
-                        <a href="#" class="header__social-link">
-                            <img src="./assets/img/header/insta.svg" alt="instagram">
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </header>
     <section class="page">
         <div class="page__container">
             <p class="page__meta">Home > User Information > Disclaimer</p>
@@ -900,51 +911,6 @@
         </div>
     </section>
 
-    <header class="header">
-            <div class="header__container">
-                <div class="header__logo">
-                    <h1 class="header__title">Investolazlo</h1>
-                </div>
-                <nav class="header__nav">
-                    <ul class="header__nav-list">
-                        <li class="header__nav-item">
-                            <a href="#" class="header__nav-link">Home</a>
-                        </li>
-                        <li class="header__nav-item">
-                            <a href="#" class="header__nav-link">About</a>
-                        </li>
-                        <li class="header__nav-item">
-                            <a href="#" class="header__nav-link">Comments</a>
-                        </li>
-                        <li class="header__nav-item">
-                            <a href="#" class="header__nav-link">Gallery</a>
-                        </li>
-                        <li class="header__nav-item">
-                            <a href="#" class="header__nav-link">Articless</a>
-                        </li>
-                    </ul>
-                </nav>
-                <div class="header__social">
-                    <ul class="header__social-list">
-                        <li class="header__social-item">
-                            <a href="#" class="header__social-link">
-                                <img src="./assets/img/header/x.svg" alt="x">
-                            </a>
-                        </li>
-                        <li class="header__social-item">
-                            <a href="#" class="header__social-link">
-                                <img src="./assets/img/header/facebook.svg" alt="facebook">
-                            </a>
-                        </li>
-                        <li class="header__social-item">
-                            <a href="#" class="header__social-link">
-                                <img src="./assets/img/header/insta.svg" alt="instagram">
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-    </header>
 
     <section class="page">
             <div class="page__container">
@@ -1011,51 +977,6 @@
                 </div>
             </div>
     </section>
-    <header class="header">
-        <div class="header__container">
-            <div class="header__logo">
-                <h1 class="header__title">Investolazlo</h1>
-            </div>
-            <nav class="header__nav">
-                <ul class="header__nav-list">
-                    <li class="header__nav-item">
-                        <a href="#" class="header__nav-link">Home</a>
-                    </li>
-                    <li class="header__nav-item">
-                        <a href="#" class="header__nav-link">About</a>
-                    </li>
-                    <li class="header__nav-item">
-                        <a href="#" class="header__nav-link">Comments</a>
-                    </li>
-                    <li class="header__nav-item">
-                        <a href="#" class="header__nav-link">Gallery</a>
-                    </li>
-                    <li class="header__nav-item">
-                        <a href="#" class="header__nav-link">Articless</a>
-                    </li>
-                </ul>
-            </nav>
-            <div class="header__social">
-                <ul class="header__social-list">
-                    <li class="header__social-item">
-                        <a href="#" class="header__social-link">
-                            <img src="./assets/img/header/x.svg" alt="x">
-                        </a>
-                    </li>
-                    <li class="header__social-item">
-                        <a href="#" class="header__social-link">
-                            <img src="./assets/img/header/facebook.svg" alt="facebook">
-                        </a>
-                    </li>
-                    <li class="header__social-item">
-                        <a href="#" class="header__social-link">
-                            <img src="./assets/img/header/insta.svg" alt="instagram">
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </header>
     
     <section class="page">
         <div class="page__container">
@@ -1129,7 +1050,12 @@
                 <img src="./assets/img/cookie/gears.png" alt="gears" class="cookie__image-img">
             </div>
             <div class="cookie__content">
-                <h2 class="cookie__title">Cookie settings</h2>
+                <div class="cookie__title-wrapper">
+                    <div class="cookie__image cookie__image-mobile">
+                        <img src="./assets/img/cookie/gears.png" alt="gears" class="cookie__image-img">
+                    </div>
+                    <h2 class="cookie__title">Cookie settings</h2>
+                </div>
                 <p class="cookie__text">
                     We use cookies and similar technologies to help personalize content, tailor and measure ads, and provide a better
                     experience. By clicking accept, you agree to this, as outlined in our Cookie Policy.
@@ -1141,5 +1067,7 @@
             </div>
         </div>
     </section>
+
+    <script src="./assets/js/burger-menu.js"></script>
 </body>
 </html>
