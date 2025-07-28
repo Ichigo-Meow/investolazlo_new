@@ -5,7 +5,7 @@
     --font-helvetica-compressed: 'Helvetica Compressed', Arial, sans-serif;
     --font-helvetica-rounded-bold: 'Helvetica Rounded Bold', Arial, sans-serif;
     --font-inter: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-    --font-whyte-inktrap: 'WhyteInktrap', Georgia, serif;
+    --font-whyte: 'WhyteInktrap', Georgia, serif;
 
     /* Colors */
     --color-white: #fff;
@@ -14,6 +14,21 @@
     --color-background-secondary: #2b2a2e;
     --color-text: #6F6E6E;
     --color-titles: #3c3d3f;
+    --color-border: #b7c0e0;
+    --color-border-highlight: #2C4AA2;
 
 }
 
+[class*="__container"] {
+    max-width: 1680px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+a, p, span {
+    font-family: var(--font-inter);
+}
+h1, h2, h3 {
+    font-family: var(--font-whyte);
+    margin: 0;
+}

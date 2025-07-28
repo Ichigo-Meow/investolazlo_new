@@ -24,6 +24,11 @@ html {
 /**
  * Remove the margin in all browsers.
  */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 body {
     margin: 0;
@@ -42,10 +47,6 @@ main {
  * `article` contexts in Chrome, Firefox, and Safari.
  */
 
-h1 {
-    font-size: 2em;
-    margin: 0.67em 0;
-}
 
 /* Grouping content
    ========================================================================== */

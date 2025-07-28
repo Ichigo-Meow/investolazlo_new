@@ -1,8 +1,62 @@
-body {
-    background-color: #79f08d;
+.header {
+    padding: 30px 0;
+}
+
+.header__container {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    height: 100vh;
+
+}
+.header__logo {
+    position: relative;
+    margin-left: 40px;
+}
+.header__logo::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -40px;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--color-primary);
+}
+.header__title {
+    font-size: 1.375rem;
+    font-weight: bold;
+    font-family: 'WhyteInktrap', Georgia, serif;
+    color: var(--color-primary);
+}
+
+.header__nav-list {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+
+}
+.header__nav-link {
+    text-decoration: none;
+    color: var(--color-titles);
+    font-size: 1.125rem;
+    font-family: var(--font-inter);
+    font-weight: 500;
+    font-style: normal;
+}
+.header__nav-link:hover {
+    color: var(--color-primary);
+    transition: all 0.3s ease;
+    text-shadow: 0 0 0 var(--color-primary);
+}
+
+.header__social-list {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+.header__social-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

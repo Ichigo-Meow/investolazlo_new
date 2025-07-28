@@ -3,16 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Investolazlo</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/components/header.css">
+    <link rel="stylesheet" href="./assets/css/components/hero.css">
 </head>
 <body>
-    <h1>Hello World</h1>
-    <p>This is a paragraph</p>
-    <a href="https://www.google.com">Google</a>
-    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
-    <button>Click me</button>
-    <input type="text" placeholder="Enter your name">
-    <ul>
+    <header class="header">
+        <div class="header__container">
+            <div class="header__logo">
+                <h1 class="header__title">Investolazlo</h1>
+            </div>
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item">
+                        <a href="#" class="header__nav-link">Home</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#" class="header__nav-link">About</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#" class="header__nav-link">Comments</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#" class="header__nav-link">Gallery</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#" class="header__nav-link">Articless</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header__social">
+                <ul class="header__social-list">
+                    <li class="header__social-item">
+                        <a href="#" class="header__social-link">
+                            <img src="./assets/img/header/x.svg" alt="x">
+                        </a>
+                    </li>
+                    <li class="header__social-item">
+                        <a href="#" class="header__social-link">
+                            <img src="./assets/img/header/facebook.svg" alt="facebook">
+                        </a>
+                    </li>
+                    <li class="header__social-item">
+                        <a href="#" class="header__social-link">
+                            <img src="./assets/img/header/insta.svg" alt="instagram">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero__container">
+            <div class="hero__content">
+                <h2 class="hero__title">
+                    Today we will touch <br>
+                    on a topic that <span class="hero__title-accent">deserves</span> <br>
+                    your attention
+                </h2>
+                <p class="hero__text">
+                    Get ready for discussions, ideas, and new discoveries that can change the way you look at many things. <br>
+                    Comprehensive  solutions for successful company management
+                </p>
+                <div class="hero__buttons">
+                    <a href="#" class="hero__button">
+                        <span class="hero__button-text">About me</span>
+                    </a>
+                    <a href="#" class="hero__button hero__button-secondary">
+                        <span class="hero__button-text">Contact me</span>
+                    </a>
+                </div>
+            </div>
+            <div class="hero__cards">
+                <div class="hero__card card">
+                    <h3 class="card__title">Our Articles</h3>
+                    <div class="card__link-wrapper">
+                        <a href="#" class="card__link">
+                            <span class="card__link-text">
+                                View All
+                            </span>
+                            <img src="./assets/img/hero/arrow.svg" alt="arrow">
+                        </a>
+                    </div>
+                </div> 
+                <div class="hero__card card">
+                    <h3 class="card__title">Popular Category</h3>
+                    <div class="card__link-wrapper">
+                        <a href="#" class="card__link">
+                            <span class="card__link-text">
+                                View All
+                            </span>
+                            <img src="./assets/img/hero/arrow.svg" alt="arrow">
+                        </a>
+                    </div>
+                </div>
+                <div class="hero__card card">
+                    <h3 class="card__title">Popular Category</h3>
+                    <div class="card__link-wrapper">
+                        <a href="#" class="card__link">
+                            <span class="card__link-text">
+                                View All
+                            </span>
+                            <img src="./assets/img/hero/arrow.svg" alt="arrow">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
