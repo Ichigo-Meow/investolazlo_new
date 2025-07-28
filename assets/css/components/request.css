@@ -8,6 +8,7 @@
     align-items: flex-end;
     background: url(../../img/request/bg.png) no-repeat bottom center / 100% 85%;
     gap: 50px;
+    max-width: 1538px;
     overflow: hidden;
 }
 .request__content {
@@ -23,7 +24,10 @@
 .request__img {
     align-self: stretch;
     flex: 1.5;
+
+    display: flex;
+    align-items: flex-end;
 }
 .request__img-item {
-    height: 100%;
+    height: 95%;
 }

@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="./assets/css/components/request.css">
     <link rel="stylesheet" href="./assets/css/components/social.css">
     <link rel="stylesheet" href="./assets/css/components/address.css">
+    <link rel="stylesheet" href="./assets/css/components/problem.css">
 </head>
 <body>
     <header class="header">
@@ -594,9 +595,9 @@
                 </li>
                 <li class="social__link">
                     <a href="#" class="social__link-item">
-                        <img src="./assets/img/social/x.svg" alt="x" class="social__link-img">
+                        <img src="./assets/img/social/x.svg" alt="x (twitter)" class="social__link-img">
                         <span class="social__link-text">
-                            X
+                            X (Twitter)
                         </span>
                     </a>
                 </li>
@@ -698,5 +699,36 @@
         </div>
     </section>
 
+    <section class="problem">
+        <div class="problem__container">
+            <div class="problem__content">
+                <div class="problem__info">
+                    <h2 class="problem__title">Faced with a problem?</h2>
+                    <p class="problem__subtitle">Contact our 24/7 technical support team</p>
+                    <button class="problem__btn">Send request</button>
+                </div>
+                <div class="contact__form">
+                    <form action="#" method="post">
+                        <div class="contact__input-wrapper">
+                            <input type="mail" placeholder="Enter your Mail address |" class="contact__input">
+                        </div>
+                        <div class="contact__input-wrapper">
+                            <textarea name="problem" id="problem" placeholder="Describe your problem | " class="contact__input"></textarea>
+                        </div>
+                        <div class="contact__form-checkbox">
+                            <input type="checkbox" class="contact__form-checkbox-input" id="contact__form-checkbox-input">
+                            <span class="contact__form-checkbox-span"></span>
+                            <label for="contact__form-checkbox-input" class="contact__form-checkbox-label">
+                                By submitting your application you agree to the
+                                <a href="#" class="contact__form-checkbox-link">
+                                    privacy policy
+                                </a>
+                            </label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
