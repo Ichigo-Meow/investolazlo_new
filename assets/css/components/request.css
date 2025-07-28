@@ -8,6 +8,7 @@
     align-items: flex-end;
     background: url(../../img/request/bg.png) no-repeat bottom center / 100% 85%;
     gap: 50px;
+    overflow: hidden;
 }
 .request__content {
     padding: 150px 0 70px 70px;
