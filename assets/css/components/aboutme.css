@@ -1,0 +1,68 @@
+.aboutme {
+    margin-top: 60px;
+    background: url(/assets/img/aboutme/bg.png) no-repeat center center / cover;
+}
+.aboutme__title {
+    text-align: center;
+    font-size: 3.75rem;
+    font-weight: 600;
+    color: var(--color-titles);
+}
+.aboutme__title-accent {
+    color: var(--color-primary);
+}
+.aboutme__content {
+    display: flex;
+    margin: 30px 0;
+    justify-content: space-between;
+    gap: 20px;
+}
+.aboutme__cards {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    
+}
+.aboutme__card {
+    padding: 40px;
+    border-radius: 20px;
+    background: url(/assets/img/aboutme/card.png) no-repeat center center / cover;
+    border: 1px solid var(--color-border);
+    width: 300px;
+}
+.aboutme__card {
+    width: 100%;
+    background-color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+    border-radius: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.aboutme__card-secondary {
+    background-color: var(--color-background);
+    border: 1px solid var(--color-border);
+    color: var(--color-primary);
+}
+.aboutme__card-title {
+    color: var(--color-white);
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.aboutme__card-secondary .aboutme__card-title {
+    color: var(--color-primary);
+}
+.aboutme__text {
+    padding: 43px 30px;
+    margin-top: 20px;
+    background: url(/assets/img/aboutme/frame.svg) no-repeat center center / contain;
+}
+.aboutme__text-paragraph {
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 120%;
+    color: var(--color-text);
+    
+}

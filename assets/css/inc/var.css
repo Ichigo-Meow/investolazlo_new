@@ -25,10 +25,11 @@
     padding: 0 20px;
     box-sizing: border-box;
 }
-a, p, span {
+a, p, span, button {
     font-family: var(--font-inter);
 }
-h1, h2, h3 {
+h1, h2, h3{
     font-family: var(--font-whyte);
     margin: 0;
+    color: var(--color-titles);
 }

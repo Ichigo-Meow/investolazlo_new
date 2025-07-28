@@ -82,8 +82,8 @@
 @font-face {
     font-family: 'Inter';
     src: url('../../fonts/Inter/Inter_24pt-Medium.ttf') format('truetype');
-    font-weight: medium;
-    font-style: italic;
+    font-weight: 500;
+    font-style: normal;
     font-display: swap;
 }
 

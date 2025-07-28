@@ -1,0 +1,29 @@
+.request {
+    margin: 60px 0;
+    padding: 40px 0;
+}
+.request__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background: url(../../img/request/bg.png) no-repeat bottom center / 100% 85%;
+    gap: 50px;
+}
+.request__content {
+    padding: 150px 0 70px 70px;
+    flex: 1;
+}
+.request__title {
+    font-size: 60px;
+    font-weight: 700;
+    color: var(--color-white);
+    margin-bottom: 30px;
+}
+.request__img {
+    align-self: stretch;
+    flex: 1.5;
+}
+.request__img-item {
+    height: 100%;
+    
+}
